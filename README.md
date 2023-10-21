@@ -1,12 +1,19 @@
-# MCML_simulate-spectroscopy
-This code was created for simulating Diffuse Reflectance Spectroscopy(DRS) of human skin tissue via Monte Carlo for Multi-Layered media(MCML)
+# Masters' Thesis : Light-Skin Interaction Simulation in a PPG device
 
+This code was created for simulating Diffuse Reflectance Spectroscopy(DRS) of human skin tissue via Monte Carlo for Multi-Layered media(MCML)
 You may need to refer to this paper to understand the principle.
 
 MCML: https://omlc.org/software/mc/mcml/index.html and https://omlc.org/software/mc/mcml/MCman.pdf
 
-# Introduction
-The technical details of the Monte-Carlo multilayer (MCML) simulation have been described in the literature [Meglinski and Matcher (2002)]. We followed the algorithm but rewrote the code in Python to significantly accelerate the simulation speed (via CPU multicore processing). </br>
+# Introduction and context
+Wearable’s devices are questioning how people track their health and fitness. Recent studies have shown that, while elderly and sick people used to dish stop using eHealth wearables after 30 to 60 days, the global pandemic deeply changed their lifestyles and the way they track their health, and this is most likely to last. These main changes are particularly real when it comes to cardiac problems: prevention plays a key role in cardiac monitoring. A high HR in a healthy population is linked to a higher risk of coronary artery disease and can be a predictor of Heart Failure (HF). When wrongly recovered, HF can increase adverse cardiovascular events. The key problem about HR and HF, is that it arises in healthy patients, hence its’ nickname “silent killer”, and is also one of the first causes of death, especially in Europe. In the US, it accounts for 1 in 4 deaths. To monitor health quality, a consistent follow-up is deeply needed especially for conditions such as myocardial infarction or more complex arrhythmias. Now, persons with risks are followed through ECG and their cardiologist. It’s particularly interesting for patients with risk factors such as high BP, chest pain, shortness of breath… The main problem remains that ECG is useful during a heart attack, which cannot be predicted and needs an appointment with the physician. Plus, the chances of surviving a heart attack are better the sooner the emergency treatment arises. Moreover, two-thirds of all heart attacks go undetected by ECG. That’s when PPG comes: PhotoPlethysmoGraphic (PPG) method is a great solution for personalized e-health: It allows following the oxygen rate, blood pulse and multiple other cardiac parameters by just putting a wristband or putting the device around one’s finger. It stands at the future ECG replacement. Moreover, it’s super user-friendly: it’s simple, has a great cost-benefit ratio, is easily accessible, non-invasive, and the signal acquisition is easy to read. This tool is especially interesting when it comes to detecting cardiac arrest or haemodynamic shock: it could save lives. The greatest advantage is that PPG monitoring is just one click away, which would alert and support the identification of the heart failure problem. Also, some smart wristbands offer an emergency call option: These features make the PPG more convenient and adapted to reactive support to the patient.
+
+
+# How it works
+The 
+This code was created for simulating Diffuse Reflectance Spectroscopy(DRS) of human skin tissue via Monte Carlo for Multi-Layered media(MCML).You may need to refer to this paper to understand the principle.
+
+MCML: https://omlc.org/software/mc/mcml/index.html and https://omlc.org/software/mc/mcml/MCman.pdf
 In all simulations, 10<sup>4</sup> photon packets at each wavelength were used to enter the model from above (z<0) at the air at stratum corneum boundary. At this point a set of probabilities determine if the photon packets are reflected or enter the tissue. When a packet has entered the tissue, it can be partially or fully absorbed by event bins uniformly distributed throughout the tissue.With a starting photon weight W of 1, every time a photon packet interacts with a bin it loses part of its weight and then gets scattered in a direction determined by the anisotropy factor and scattering coefficient. At the end of the simulation, all diffusely scattered photons locating at the incident side (z<0) were added up to give a diffuse reflectance spectrum. </br>
 One of the simulation results is presented in **below figure** with filled circles enclosed in error bars estimated from 10 simulations.
 For comparison, a diffuse reflectance spectrum measured on the inside ofthe right forearm of an adult with our DRS apparatus is also presented (red solid curve). A good agreement with the simulation profile was obtained, suggesting that the model used captured the essential elements of human skin tissue.
@@ -58,4 +65,9 @@ Enter your requirements as prompted
 `How many photons for simulation?(1000 photons spend about 4 mins)`more photons will result in better spectrum (but you will spend more time)
 
 `How many multicore operations to use?`Please consider the number of your CPU cores
- 
+
+# Usage
+This code was created for simulating Diffuse Reflectance Spectroscopy(DRS) of human skin tissue via Monte Carlo for Multi-Layered media(MCML)
+You may need to refer to this paper to understand the principle.
+
+MCML: https://omlc.org/software/mc/mcml/index.html and https://omlc.org/software/mc/mcml/MCman.pdf
