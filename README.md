@@ -1,9 +1,6 @@
 # Masters' Thesis : Light-Skin Interaction Simulation in a PPG device
 
-This code was created for simulating Diffuse Reflectance Spectroscopy(DRS) of human skin tissue via Monte Carlo for Multi-Layered media(MCML)
-You may need to refer to this paper to understand the principle.
-
-MCML: https://omlc.org/software/mc/mcml/index.html and https://omlc.org/software/mc/mcml/MCman.pdf
+This project is my masters' thesis within the INSA Lyon Engineering Degree, held at Infineon Technologies AG, in Munich, Germany, as part of the UNITECH International Engineer scheme.
 
 # Introduction and context
 Wearable’s devices are questioning how people track their health and fitness. Recent studies have shown that, while elderly and sick people used to dish stop using eHealth wearables after 30 to 60 days, the global pandemic deeply changed their lifestyles and the way they track their health, and this is most likely to last. 
