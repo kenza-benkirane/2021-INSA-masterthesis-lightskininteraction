@@ -1,22 +1,18 @@
 #Importing libraries
 import numpy as np
-import multiprocessing as mp
-from multiprocessing import Queue, cpu_count
+import multiprocessing as mp ;from multiprocessing import Queue, cpu_count
 import matplotlib.pyplot as plt
 import time
 import os
 import webbrowser
-import tkinter
-import tkinter as tk
+import tkinter; import tkinter as tk
 import pandas as pd
-from pandastable import Table
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from matplotlib.figure import Figure
-import matplotlib
-matplotlib.use('TkAgg')
+from pandastable import Table 
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg; from matplotlib.figure import Figure
+import matplotlib; matplotlib.use('TkAgg')
 
 
-# Display options
+# Display customization
 TITLE_FONT = ("Arial", 16, "bold")
 violet_bg = '#ccb6e4'
 white_bg = '#FFFFFF'
@@ -29,7 +25,7 @@ PARTIALREFLECTION = 0     # 1=split photon, 0=statistical reflection.
 COSZERO = 1.0 - 1.0e-12     # cosine of about 1e-6 rad
 COS90D = 1.0e-6     # cosine of about 1.57 - 1e-6 rad
 path = os.path.dirname(__file__)
-modelfile = np.genfromtxt(os.path.join(path,'model_input_R.txt'), dtype=['<U20', float])
+modelfile = np.genfromtxt(os.path.join(path,'model_input.txt'), dtype=['<U20', float])
 
 class Medium:
     """Medium class - optical medium class defining the optical properties
