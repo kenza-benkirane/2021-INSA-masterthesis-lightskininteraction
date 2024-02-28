@@ -2,6 +2,8 @@
 
 This project is my masters' thesis within the INSA Lyon Engineering Degree, held at Infineon Technologies AG, as part of the UNITECH International Engineer scheme. It was held from March to August 2021 in Munich, Germany.
 
+More info on the company and there effort towards smart-wearables is available [here]([url](https://www.infineon.com/cms/en/applications/healthcare-and-lifestyle/wearables/)).
+
 # Introduction and context
 Wearable’s devices are questioning how people track their health and fitness. Recent studies have shown that, while elderly and sick people used to dish stop using eHealth wearables after 30 to 60 days, the global pandemic deeply changed their lifestyles and the way they track their health, and this is most likely to last. 
 These main changes are particularly real when it comes to cardiac problems: prevention plays a key role in cardiac monitoring. A high HR in a healthy population is linked to a higher risk of coronary artery disease and can be a predictor of Heart Failure (HF). When wrongly recovered, HF can increase adverse cardiovascular events. The key problem about HR and HF, is that it arises in healthy patients, hence its’ nickname “silent killer”, and is also one of the first causes of death, especially in Europe. In the US, it accounts for 1 in 4 deaths. 
