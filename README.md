@@ -1,4 +1,4 @@
-# Light-Skin Interaction Simulation for PhotoPlethysmoGraphiy (PPG
+# Light-Skin Interaction Simulation for PhotoPlethysmoGraphiy (PPG)
 
 This project is my masters' thesis within the INSA Lyon Engineering Degree, held at Infineon Technologies AG, as part of the UNITECH International Engineer scheme. It was held from March to August 2021 in Munich, Germany.
 
